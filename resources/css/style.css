@@ -210,16 +210,22 @@ transition is placed here so when the button is clicked smooth transition from t
     margin-right: 6rem;
 }
 
+.fa-github {
+    color: #fff;
+}
+
 .fa-search,
 .fa-twitter,
 .fa-facebook,
-.fa-instagram {
+.fa-instagram,
+.fa-github {
     transition: color 0.2s;
 }
 .fa-search:hover {color: rgb(255, 231, 97);}
 .fa-twitter:hover {color: #1da1f2;}
 .fa-facebook:hover {color: #1877f2;}
 .fa-instagram:hover {color: #c32aa3;}
+.fa-github:hover {color: #a5a5a5;}
 
 
 .icon {
