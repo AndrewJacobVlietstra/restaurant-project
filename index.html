@@ -16,6 +16,10 @@
         <!--Slick Carousel-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+
+        <!--Animate on Scroll-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
         <!--CSS Stylesheet-->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <title>Jevelin</title>
@@ -72,17 +76,17 @@
                     <h2 class="section-title">What We Can Offer</h2>
                     <h3 class="section-subtitle">from our hearts</h3>
                     <div class="three-columns-grid">
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
                             <img src="resources/images/pic1.png" alt="Decorative food" width="200">
                             <h3 class="subtitle"><strong>Always</strong> Fresh</h3>
                             <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti animi pariatur fugiat voluptatum amet eos provident? Consequuntur officia iste doloremque.</p>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade" data-aos-offset="400" data-aos-duration="1000">
                             <img src="resources/images/pic2.png" alt="Decorative food" width="200">
                             <h3 class="subtitle"><strong>Eco</strong> Products</h3>
                             <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti animi pariatur fugiat voluptatum amet eos provident? Consequuntur officia iste doloremque.</p>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
                             <img src="resources/images/pic3.png" alt="Decorative food" width="200">
                             <h3 class="subtitle"><strong>Healthy</strong> Desserts</h3>
                             <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti animi pariatur fugiat voluptatum amet eos provident? Consequuntur officia iste doloremque.</p>
@@ -325,6 +329,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
         <script src="resources/js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 
 </html>
