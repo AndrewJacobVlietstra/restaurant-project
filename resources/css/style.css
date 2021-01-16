@@ -666,6 +666,12 @@ select:focus {
         margin-right: 9rem;
     }
 
+    .hero,
+    .book {
+        background-attachment: scroll;
+    }
+
+
     .four-columns-grid {
         grid-template-columns: 1fr;
     }
