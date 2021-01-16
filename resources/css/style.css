@@ -37,6 +37,7 @@ a {
     padding: 2rem;
 }
 
+/* Any element given this zoom class will scale in size when hovered over */
 .zoom {
     transition: transform 0.15s;
 }
@@ -199,6 +200,9 @@ transition is placed here so when the button is clicked smooth transition from t
     color: #c59d5f;
 }
 
+.icon {
+    padding-right: 1rem;
+}
 
 .icons {
     list-style: none;
@@ -207,7 +211,6 @@ transition is placed here so when the button is clicked smooth transition from t
     display: flex;
     margin-right: 8rem;
     z-index: 50;
-    margin-right: 6rem;
 }
 
 .fa-github {
@@ -657,8 +660,21 @@ select:focus {
         text-align: center;
     }
 
+    .book-card {
+        width: 70%;
+        height: 60vh;
+    }
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
     .customers {
         padding-top: 20rem;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        display: none;
     }
 }
 
@@ -699,7 +715,11 @@ select:focus {
     }
 
     .book-card {
-        width: 100%;
+        width: 90%;
+        height: 60vh;
+    }
+    .form-group {
+        margin-bottom: 2.5rem;
     }
 
     .book-title {

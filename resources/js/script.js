@@ -25,7 +25,7 @@ navLinks.forEach(link => {
 $(document).ready(function (){
     $(".carousel").slick({
         autoplay: true,
-        autoplaySpeed: 3500,
+        autoplaySpeed: 3000,
         dots: true
     });
 });
