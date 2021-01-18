@@ -645,6 +645,13 @@ select:focus {
     .nav-list {
         width: 80%;
     }
+    .title {
+        font-size: 8rem;
+    }
+    .icons {
+        font-size: 280%;
+        margin-right: 6rem;
+    }
 
     .four-columns-grid {
         grid-template-columns: 1fr 1fr;
@@ -660,13 +667,22 @@ select:focus {
         text-align: center;
     }
 
+
     .book-card {
-        width: 70%;
-        height: 60vh;
+        width: 80%;
+        height: 65vh;
     }
+    .btn-book {
+        margin-top: -1rem;
+    }
+
     .form-group {
         margin-bottom: 1rem;
+        line-height: 200%;
     }
+
+    .menu {margin-bottom: 200px;}
+    .menu-card {padding: 0px 20px;}
 
     .customers {
         padding-top: 20rem;
@@ -679,6 +695,8 @@ select:focus {
 }
 
 @media only screen and (max-width: 500px) {
+
+    .logo {margin-right: 10px;}
     .premium {
         width: 200px;
     }
@@ -692,7 +710,8 @@ select:focus {
     }
 
     .icons {
-        margin-right: 9rem;
+        font-size: 250%;
+        margin-right: 6rem;
     }
 
     .hero,
@@ -720,6 +739,10 @@ select:focus {
     }
     .form-group {
         margin-bottom: 2.5rem;
+    }
+
+    .menu-card {
+        padding: 0px 20px;
     }
 
     .book-title {
